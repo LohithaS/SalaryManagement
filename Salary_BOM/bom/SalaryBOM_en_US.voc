@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = bcb67f85-03d1-4b4c-b4d9-d57645382c75
+
+# SalaryXOM
+SalaryXOM#concept.label = salary XOM
+SalaryXOM.basic#phrase.action = set the basic of {this} to {basic}
+SalaryXOM.basic#phrase.navigation = {basic} of {this}
+SalaryXOM.name#phrase.action = set the name of {this} to {name}
+SalaryXOM.name#phrase.navigation = {name} of {this}

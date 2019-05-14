@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="SalaryOperation" usingRuleflow="true" ruleflowName="salaryFlow" usingExtractor="true" targetRuleProjectName="SalaryManagementProcess">
+  <name>SalaryOperation</name>
+  <uuid>80f3d841-d9c0-4451-a1c7-d7346ad4ae4e</uuid>
+  <referencedVariables variableName="netSalary" variableSetName="netSalary" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="da" variableSetName="da" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="hra" variableSetName="hra" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="ta" variableSetName="ta" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="workingDays" variableSetName="workingDays" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="deductions" variableSetName="deductions" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="allowance" variableSetName="allowance" direction="OUT">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="Salary" variableSetName="Salary">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="project" variableSetName="project">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <referencedVariables variableName="vacation" variableSetName="vacation">
+    <variableSet href="../rules/SalaryVariables.var#8a6c3495-c872-47a2-81b2-3e9d07cfad4e"/>
+  </referencedVariables>
+  <ruleflow href="../rules/salaryFlow.rfl#0b04a049-25f3-4a2d-b114-0fe04e73841e"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="SalaryOperation_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../SalaryManagementProcess#ce911564-1731-4de9-a256-a2c20cf68fd3"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

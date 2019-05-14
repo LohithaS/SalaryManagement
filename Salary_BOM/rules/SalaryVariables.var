@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>SalaryVariables</name>
+  <uuid>8a6c3495-c872-47a2-81b2-3e9d07cfad4e</uuid>
+  <variables name="Salary" type="SalaryXOM" initialValue="" verbalization="Salary"/>
+  <variables name="project" type="java.lang.String" initialValue="" verbalization="project"/>
+  <variables name="vacation" type="java.lang.Integer" initialValue="" verbalization="vacation"/>
+  <variables name="netSalary" type="java.lang.Double" initialValue="" verbalization="netSalary"/>
+  <variables name="da" type="java.lang.Double" initialValue="" verbalization="da"/>
+  <variables name="hra" type="java.lang.Double" initialValue="" verbalization="hra"/>
+  <variables name="ta" type="java.lang.Double" initialValue="" verbalization="ta"/>
+  <variables name="workingDays" type="java.lang.Integer" initialValue="22" verbalization="workingDays"/>
+  <variables name="deductions" type="java.lang.Integer" initialValue="" verbalization="deductions"/>
+  <variables name="allowance" type="java.lang.Double" initialValue="3000" verbalization="allowance"/>
+</ilog.rules.studio.model.base:VariableSet>

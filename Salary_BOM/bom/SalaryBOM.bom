@@ -1,0 +1,13 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/SalaryManagementProcess//SalaryProject"
+property uuid "87f2ce59-bb34-4308-8e27-4d1b0f2ce6a1"
+
+public class SalaryXOM
+{
+    public double basic;
+    public string name;
+    public SalaryXOM(string arg1, double arg2);
+    public SalaryXOM();
+}
+

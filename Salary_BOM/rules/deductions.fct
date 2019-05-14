@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.rule:Function xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore">
+  <name>deductions</name>
+  <uuid>d2bde8d2-86e1-4ef2-ae3c-14089d952db6</uuid>
+  <returnType>java.lang.Integer</returnType>
+  <definition><![CDATA[if(project.equals("yes"))
+{
+	
+	deductions=vacation*1000;
+
+}
+	else 
+	deductions=vacation*350;
+	return deductions;]]></definition>
+  <imports>use Salary;</imports>
+  <imports>use project;</imports>
+  <imports>use workingDays;</imports>
+  <imports>use deduction;</imports>
+  <imports>use vacation;</imports>
+  <imports>use deductions;</imports>
+</ilog.rules.studio.model.rule:Function>
